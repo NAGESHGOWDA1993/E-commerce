@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+.slider .owl-prev , .slider .owl-next{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    top:30%;
+    
+}
+.slider .owl-prev i , .slider .owl-next i{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.owl-prev {
+    left: 10px;   
+}
+.owl-next{
+    right: 10px;
+}
+.slider .owl-prev::before, .slider .owl-next::before{
+    position: absolute;
+    top: 50%;
+    transform: translate (-50%, -50%);
+    width: 110px;
+    height: 110px;
+    background: ☐ #ff000024;
+    content: "";
+}

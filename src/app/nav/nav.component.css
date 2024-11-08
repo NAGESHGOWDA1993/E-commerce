@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline;
+}
+ul{
+    position: relative;
+    top: 20px;
+}
+li{
+    margin: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+li a:hover{
+   color: aqua;
+}

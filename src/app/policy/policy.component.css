@@ -1,0 +1,102 @@
+.containers{
+    width: 90%;
+    margin: 0 auto;
+}
+.policy{
+        background-color: black;
+        color: white;
+        height: 300px;
+        padding: 60px 0px;
+}
+.round{
+    padding:20px;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    font-size: 34px;
+    background-color: rgba(255, 255, 255, .2);
+    transition: all .3s ease;
+    margin: 0 auto;
+}
+.policy-card h2{
+    transition: all .3s ease;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 12px 0 5px;
+}
+.policy-card p{
+    font-style: italic;
+}
+.policy-product{
+    padding: 60px 0;
+    background: #eee; 
+
+}
+.policy-p-card{
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        border-bottom: 1px solid #a8a8aa;
+        position: relative;
+        top: -120px;
+}
+.date{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    z-index: 2;
+    background-color: #ff4000;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    color: white;
+}
+.date h3{
+    font-size: 28px;
+    font-weight: 700;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.policy-img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.policy-img img{
+    width: 100%;
+    height: 100%;
+    transition: all .2s ease;
+}
+.policy-p-card h2{
+    text-transform: capitalize;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 18px 0 10px; 
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.policy-p-card p{
+    color: #777;
+    line-height: 21px;
+    font-size: 14px;
+    transition: all .2 ease;
+}
+.policy-img img:hover{
+    transform: scale(1.2);
+}
+.read-more{
+    color: #fff;
+    display: block;
+    padding: 10px;
+    background-color: rgb(82, 82, 82);
+    text-decoration: none;
+    text-align: left;
+    text-align: center;
+    transition: all .2s ease;
+}
+.read-more:hover{
+    background-color: #ff4000;
+}
